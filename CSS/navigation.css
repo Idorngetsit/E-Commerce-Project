@@ -1,13 +1,7 @@
-/* .navigation-section {
-  height: auto;
-  width: 100%;
-} */
-
 .navigation-section-whitebar {
   height: 80px;
   position: relative;
 }
-
 .navigation-section-whitebar .container {
   display: flex;
   align-items: center;
@@ -23,18 +17,9 @@
 }
 
 .navigation-whitebar-categories {
-  /* display: none; */
-  /* position: absolute; */
   background-color: white;
   display: flex;
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* box-shadow: 4px 3px 10px 3px rgba(0, 0, 0, 0.1); */
-  /* gap: 20px; */
   left: 0%;
-  /* width: 100%; */
-  /* top: 100%; */
-  /* z-index: 10; */
   padding: 10px;
 }
 
