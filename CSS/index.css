@@ -6,7 +6,8 @@
 
 /* --------- IMPORTING STYLES --------- */
 @import url("header.css");
-@import url("navigation.css");
+@import url("hero-section.css");
+@import url("category.css");
 
 /* Resetting styles */
 * {
@@ -37,12 +38,11 @@
 .hide-mobile {
   display: none;
 }
-.display-none {
-  display: none;
-}
-
 @media screen and (min-width: 750px) {
   .hide-mobile {
     display: block;
   }
+}
+h2 {
+  color: var(--text-color);
 }
